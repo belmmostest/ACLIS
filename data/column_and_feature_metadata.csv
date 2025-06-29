@@ -1,0 +1,59 @@
+﻿Column,Description,Data Type,Data Domain,Product
+customer_id,The customer id registered in the system,string,Profile,N/A
+month_year,The month year in format of YYYYMM,int,Profile,N/A
+avg_3mth_lag_fxd_brdbnd_total_download_gb,Average download in GB on fixed broadband over last 3 months,float,Usage,Unifi/Streamyx
+avg_3mth_fxd_brdbnd_total_sessions,Average number of internet sessions on fixed broadband over last 3 months,float,Usage,Unifi/Streamyx
+min_months_until_contract_end,The number of min months between snapshot date and contract end date,float,Profile,Unifi/WEBE
+payment_mode_cash_cnt,The total numer of payments done with cash,tinyint,Revenue,N/A
+max_months_until_contract_end,The number of max months between snapshot date and contract end date,float,Profile,Unifi/WEBE
+lag2_sum_net_revenue_amt,Total net revenue 2 months in the past,float,Revenue,N/A
+payment_mode_credit_card_cnt,The total numer of payments done with creadit card,tinyint,Revenue,N/A
+lag2_sum_price,Total price of services 2 months in the past,int,Revenue,N/A
+lag2_sum_unifi_stmx_rev_amt,Total Unifi and Streamyx services revenue 2 months in the past,float,Revenue,Unifi/Streamyx
+lag2_sum_monthly_charges,Total monthly usage charges of the services 2 months in the past,float,Revenue,N/A
+lag2_sum_inv_tax_amt,Total tax amounts 2 months in the past,float,Revenue,N/A
+payment_cent_type_bank_or_card_cnt,The total numer of payments done with bank or card,tinyint,Revenue,N/A
+any_6mth_price_hike_10pct,Flag if there any price change more than 10% over previous 6 months,tinyint,Target,N/A
+account_cnt,The total number of payment accounts customer has ,int,Revenue,N/A
+lag2_fxd_voice_tot_usage_discnt_chrgs,Total discount charges of fixed del and Unifi voice services 2 months in the past ,float,Usage,Unifi/Voice
+lag2_sum_hypptv_revenue_amt,Total HYPPTV services revenue 2 months in the past,float,Revenue,Unifi
+sum_hypptv_revenue_amt,The total amount of HYPPTV service revenue,float,Revenue,Unifi
+revenue_score,The revenue score of the customer,tinyint,Profile,N/A
+fxd_voice_tot_usage_discnt_chrgs,Total discount charges of fixed DEL and Unifi voice services,float,Usage,Unifi/Voice
+avg_6m_cnt_prod_w,Average number of WEBE services over last 6 months,float,Product,WEBE
+fxd_voice_wkend_tot_usage_discnt_chrgs,Total discount charges of fixed DEL and Unifi voice services on weekends,float,Usage,Unifi/Voice
+lag2_fxd_voice_wkday_tot_usage_discnt_chrgs,Total discount charges of fixed del and Unifi voice services on weekdays 2 months in the past,float,Usage,Unifi/Voice
+payment_cent_type_sbbs_or_mppj_cnt,The total numer of payments done with sbbs or mppj,tinyint,Revenue,N/A
+spdtst_test_cnt,The total number of speed tests performed ,smallint,Speedtest/QoS,Unifi/Streamyx
+spdtst_avg_jitter,Recorded avg jitter during speed tests,float,Speedtest/QoS,Unifi/Streamyx
+lag1_spdtst_avg_upload_kbps,Recorded average upload(kbps) speed during speed tests 1 month in the past,float,Speedtest/QoS,Unifi/Streamyx
+lag1_spdtst_max_upload_kbps,Recorded max upload(kbps) speed during speed tests 1 month in the past,int,Speedtest/QoS,Unifi/Streamyx
+payment_cent_type_post_office_cnt,The total numer of payments done on post office,tinyint,Revenue,N/A
+tot_srvc_cnt,The total number of services customer has ,smallint,Product,N/A
+lag1_sum_hypptv_revenue_amt,Total HYPPTV services revenue 1 month in the past,float,Revenue,Unifi
+avg_3m_tot_srvc_cnt,Average number of services customer has over last 3 months,float,Product,N/A
+fxd_voice_wkday_tot_usage_discnt_chrgs,Total discount charges of fixed DEL and Unifi voice services on weekdays,float,Usage,Unifi/Voice
+fxd_voice_wkday_postcode,The location of fixed DEL and Unifi voice service on the weekdays,string,Usage,Unifi/Voice
+fxd_voice_postcode,The location of fixed DEL and Unifi voice service,string,Usage,Unifi/Voice
+ct_unifi_super_value_pckg,The total number of Unifi super value package,smallint,Package,Unifi
+fxd_voice_wkend_postcode,The location of fixed DEL and Unifi voice service on the weekends,string,Usage,Unifi/Voice
+hypptv_rev_postcode,The location of HYPPTV revenue is generated,string,Revenue,Unifi
+fxd_brdbnd_postcode,The location of fixed broadband service ,string,Usage,Unifi/Streamyx
+voice_rev_postcode,The location of voice services revenue is generated,string,Revenue,Unifi/Voice
+usage_charge_postcode,The location of services usage charge is generated,string,Revenue,N/A
+ct_promo_pckg,The total number of mobile promo package,smallint,Package,WEBE
+marital_status,Customer marital status,string,Profile,N/A
+ct_pckg_less_50_myr,The total number of mobile package less than 50 MYR,smallint,Package,WEBE
+monthly_charge_postcode,The location of services monthly charges is generated,string,Revenue,N/A
+unifi_stmx_rev_postcode,The location of Unifi Streamyx revenue is generated,string,Revenue,Unifi/Streamyx
+net_revenue_postcode,The location of services net revenue is generated,string,Revenue,N/A
+is_out_of_contract,Flag if the customer doesn't have an active contract,tinyint,Profile,Unifi/WEBE
+ct_unifi_pckg_less_150_myr,The total number of Unifi packages less than 150 MYR,smallint,Package,Unifi
+ct_pckg_over_100_myr,The total number of mobile package over 100 MYR,smallint,Package,WEBE
+revenue_band,Customer revenue band,string,Profile,N/A
+cnt_of_contracts,Total number of Unifi/WEBE contracts customer has,smallint,Profile,Unifi/WEBE
+speed_upsell,"This is the target variable, i.e. whether the model and data insights combined indicate the customer is ready for an upsell campaign",int,Target,N/A
+y_pred,This is the score the ML model assigned to the customer,float,ML Result,N/A
+decile,This is the decile of the customer's y_pred score with 0 being the highest decile,float,Profile,N/A
+percentile,This is the percentile of the customer's y_pred,float,Profile,N/A
+y_pred_calibrated,This is the calibrated score of the ML model,float,ML Result,N/A
