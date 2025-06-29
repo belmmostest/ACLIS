@@ -1,0 +1,16 @@
+model:
+  provider: "ollama"
+  name: "gemma3:12b"
+  temperature: 0.0
+
+processing:
+  chunk_size: 512
+  chunk_overlap: 20
+
+embedding:
+  model: "local"
+
+storage:
+  json_store: "data/document_store"
+  index_path: "data/indices"
+  persist: True
