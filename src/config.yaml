@@ -6,6 +6,7 @@ model:
 processing:
   chunk_size: 512
   chunk_overlap: 20
+  batch_size: 15
 
 embedding:
   model: "local"

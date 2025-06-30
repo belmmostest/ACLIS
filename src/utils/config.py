@@ -9,6 +9,7 @@ class ModelConfig(BaseModel):
 class ProcessingConfig(BaseModel):
     chunk_size: int
     chunk_overlap: int
+    batch_size: int
 
 class EmbeddingConfig(BaseModel):
     model: str

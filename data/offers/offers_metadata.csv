@@ -1,0 +1,34 @@
+﻿Column,Description
+PACKAGE,Name of the package
+DESCRIPTION,Description of the package
+HAS_MESH,Whether the package includes MESH
+HAS_UPB,Whether the package includes UPB
+UPFRONT_FEE,Does the package require uprfront fee
+NONDISCOUNTED_PRICE,The price of the package without discount
+CONTRACT_TERM [MONTHS],The length of the contract required for the package
+DISCOUNTED_PRICE,The price of the package with discount
+DISCOUNT_TERM [MONTHS],The terms of the discount provided
+BB_SPEED,The broadband speed of the package
+HAS_TV_PACK_VAR,Whether the package includes TV offering
+HAS_TV_PACK_MOVIES,Whether the package includes movie offering
+HAS_TV_PACK_SPORTS,Whether the package includes sports offering
+HAS_TV_PACK_KIDS,Whether the package includes kids channel offering
+HAS_TV_PACK_FAMILY/ ULTIMATE,Whether the package includes TV family offering
+HAS_FIXED,Whether the package includes fixed broadband
+HAS_CONTENT,Whether the package includes other value added content
+IS_PROACTIVE_RECONTRACTING,Whether the package is renewed 
+IS_MONETIZATION,Whether the package is part of the monetization campaign
+TERMINATION_DATE,The date the package has been terminated
+STATUS,The current status of the package
+REMARKS,Additional notes regarding the package
+ID,Package Identifier
+HAS_MOBILE,Whether the package includes mobile offering
+HAS_TV_PACK_FAMILY,Whether the package includes TV family offering
+HAS_OTT_NETFLIX,Whether the package includes Netflix
+HAS_DEVICE,Whether the package includes a device provided by the operator
+MOBILE_GROUP,The mobile group
+CAN_BE_ADDED_TO_BUNDLES,Whether the package can be added to bundles
+CAN_BE_ADDED_TO_UNIFI,Whether the package can be added to unifi package
+CAN_BE_STACKED_WITH_OTHER_STANDALONES,Whether the package can be stacked with other standalone offerings
+IS_DISCOUNT_RELATIVE,Whether the discount is relative
+BB_SPEED_CHANGE,The broadband speed change associated with the package
